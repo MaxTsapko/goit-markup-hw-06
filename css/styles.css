@@ -308,7 +308,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 
-  width: calc((100% - 72px)/4);
+  width: calc((100% - 72px) / 4);
   background-color: #FFFFFF;
 }
 
@@ -821,6 +821,42 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.header-logo {
+  padding: 16px 0;
+}
+.menu {
+  display: none;
+}
+.contact {
+  display: none;
+}
+
+.order-section-mobile {
+  padding: 72px 0;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-squoosh.jpg);
+  max-width: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.main-title-mobile {
+  max-width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
 
 .ways-to-achieve-mobile {
   padding-top: 96px;
@@ -833,9 +869,6 @@ body {
   row-gap: 72px;  
 }
 
-.achieve-list-item-mobile {
-  
-}
 
 .achieve-icon-box {
   display: none;
@@ -848,7 +881,6 @@ body {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  
 }
 
 .achieve-item-text-mobile {
@@ -868,19 +900,161 @@ body {
 
 .team-list-item-mobile {
   border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16),
       0px 2px 1px rgba(46, 47, 66, 0.08);
   
-    width: 264px;
-    background-color: #FFFFFF;
-    
+  width: 264px;
+  background-color: #FFFFFF;   
 }
+
+.portfolio-list-mobile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  justify-content: center;
+}
+
+.portfolio-list-mobile {
+  justify-content: center;
+}
+
+.img-wrapper {
+  width: 288px;
+  height: 280px;
+}
+
+.app-description{
+width: 288px;
+}
+ 
+/*----footer mobile-----*/
+
+.footer-color-mobile {
+  padding: 96px 0;
+  background-color: #2e2f42;
+}
+
+
+.logo-and-text-mobile {
+  margin-bottom: 72px;
+  
+}
+
+.page-logo-footer-mobile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  
+}
+
+.footertext-mobile {
+  width: 288px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;}
+
+.social-media-container-mobile{
+  margin-bottom: 72px;
+}
+.social-media-mobile {
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+ .icon-list-mobile {
+   display: flex;
+   gap: 16px;
+   justify-content: center;
+ }
+
+ .subscribe-label-mobile {
+   text-align: center;
+   font-weight: 500;
+   margin-bottom: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #fff;
+ }
+.subscribe-email-input-mobile {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  min-width: 288px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+
+}
+
+.subscribe-email-input-mobile::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe-email-btn-mobile {
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #4d5ae5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 768px) {
   .container-mobile {
     max-width: 766px;
   }
+
+  .menu {display: flex;}
+  .contact {display: flex;}
+
+  .order-section-mobile {
+    max-width: 768px;
+    padding: 112px 0 ;
+  }
+  .main-title-mobile {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+
+
   .achieve-list-mobile {
     flex-direction: row;
     flex-wrap: wrap;
@@ -894,24 +1068,81 @@ body {
     text-align: left;
   }
   .team-list-mobile {
-      
-      flex-direction: row;
-      flex-wrap: wrap;
-      column-gap: 24px;
-      margin-left: 93px;
-      margin-right: 93px;
-     
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    align-items: center;
+    justify-content: center;
+       
   }
-.team-list-item-mobile {
-width: calc((100% - 24px) / 2);
+  .portfolio-list-mobile {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .img-wrapper {
+  width: 356px;
+  height: 300px;
+  }
+  .app-description {
+  width: 356px;
+  }
+  .footer-container-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .footertext-mobile {
+    width: 264px;
+  }
+  
+  .page-logo-footer-mobile {
+  justify-content: left;
+  }
+  .social-media-mobile {
+    text-align: left;
+  }
+  .icon-list-mobile {
+    justify-content: left;
+  }
+  
+    
+  .logo-and-text-mobile {
+    margin-right: 24px;
+  }
+  
+
+.subscribe-label-mobile {
+  text-align: left;
+}
+.subscribe-form-mobile {
+  display: flex;
+}
+.subscribe-email-input-mobile {
+  min-width: 264px;
+  margin-right: 24px;
 }
 
 }
+
+
+
   
 @media screen and (min-width: 1158px){
   .container-mobile {
     max-width: 1158px;
   }
+.order-section-mobile {
+  padding: 188px 0;
+  max-width: 1440px;
+}
+
+.main-title-mobile {
+  margin-bottom: 48px;
+
+}
+
 .achieve-list-item-mobile {
   width: calc((100% - 74px) / 4);
 }
@@ -926,4 +1157,36 @@ width: calc((100% - 24px) / 2);
 .achieve-item-text-mobile {
 font-weight: 400;
  }
+ .team-list-item-mobile {
+width: calc((100% - 72px) / 4);
+ }
+.portfolio-list-mobile {
+  row-gap: 48px;
+}
+.img-wrapper {
+  width: 360px;
+  height: 300px;
+}
+.app-description {
+  width: 360px;
+}
+.portfolio-list-item-mobile:hover .overlaytext {
+  transform: translateY(0%);
+
+}
+
+.portfolio-list-item-mobile:hover .app-description {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.logo-and-text-mobile {
+  margin-right: 120px;
+}
+
+.social-media-container-mobile {
+  margin-right: 80px;
+}
+
 }
