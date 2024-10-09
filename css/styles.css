@@ -821,9 +821,14 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.header-logo {
+.header-logo-mobile {
   padding: 16px 0;
+  margin-right: 149px;
+  
 }
+
+
+
 .menu {
   display: none;
 }
@@ -1038,7 +1043,7 @@ width: 288px;
   .container-mobile {
     max-width: 766px;
   }
-
+  .menu-icon-container {display: none;}
   .menu {display: flex;}
   .contact {display: flex;}
 
