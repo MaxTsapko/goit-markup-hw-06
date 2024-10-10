@@ -615,9 +615,12 @@
           </a>
 
               <div class="menu-icon-container">
-                <svg class="menu-icon-mobile" width="24" height="24">
-                <use href="./images/icons.svg#icon-menu"></use>
-              </svg>
+                <button class="menu-icon-btn" type="button">
+                  <svg class="menu-icon-mobile" width="24" height="24">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                  </svg>
+                </button>
+                
               </div>
               
           
@@ -726,7 +729,8 @@
             <li class="team-list-item-mobile">
               <img
                 class="team-list-img"
-                src="./images/team/mark-guerrero.jpg"
+                srcset="./images/team/mark-guerrero@1x.jpg 1x, ./images/team/mark-guerrero@2x.jpg 2x"
+                src="./images/team/mark-guerrero.jpg@1x"
                 alt="Mark Guerrero avatar"
                 width="264"
                 height="260"
@@ -770,7 +774,8 @@
             <li class="team-list-item-mobile">
               <img
                 class="team-list-img"
-                src="./images/team/tom-ford.jpg"
+                srcset="./images/team/tom-ford@1x.jpg 1x, ./images/team/tom-ford@2x.jpg 2x"
+                src="./images/team/tom-ford@1x.jpg"
                 alt="Tom Ford avatar"
                 width="264"
                 height="260"
@@ -814,7 +819,8 @@
             <li class="team-list-item-mobile">
               <img
                 class="team-list-img"
-                src="./images/team/camila-garcia.jpg"
+                srcset="./images/team/camila-garcia@1x.jpg 1x, ./images/team/camila-garcia@2x.jpg 2x"
+                src="./images/team/camila-garcia@1x.jpg"
                 alt="Camila Garcia avatar"
                 width="264"
                 height="260"
@@ -858,7 +864,8 @@
             <li class="team-list-item-mobile">
               <img
                 class="team-list-img"
-                src="./images/team/daniel-wilson.jpg"
+                srcset="./images/team/daniel-wilson@1x.jpg 1x, ./images/team/daniel-wilson@2x.jpg 2x"
+                src="./images/team/daniel-wilson@1x.jpg"
                 alt="Daniel Wilson avatar"
                 width="264"
                 height="260"
@@ -910,10 +917,16 @@
           <ul class="portfolio-list-mobile">
             <li class="portfolio-list-item-mobile">
               <div class="img-wrapper">
-                <img
-                  src="./images/portfolio/bank-app.jpg"
-                  alt="Bank App image"
-                />
+                <picture>
+                  <source srcset="./images/portfolio/bank-app-tabl@1x.jpg 1x, ./images/portfolio/bank-app-tabl@2x.jpg 2x" media="(min-width: 1158px)" />
+                  <source srcset="./images/portfolio/bank-app-tabl@1x.jpg 1x, ./images/portfolio/bank-app-tabl@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/bank-app-mob@1x.jpg 1x, ./images/portfolio/bank-app-mob@2x.jpg 2x" media="(max-width: 767px)" />
+                   <img
+                    src="./images/portfolio/bank-app.jpg"
+                    alt="Bank App image"
+                    />
+                </picture>
+               
                 
                 <p class="overlaytext">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -931,11 +944,16 @@
 
             <li class="portfolio-list-item-mobile">
               <div class="img-wrapper">
-                <img
+                <picture>
+                  <source srcset="./images/portfolio/cashless-pay-tabl@1x.jpg 1x, ./images/portfolio/cashless-pay-tabl@2x.jpg 2x" media="(min-width: 1158px)" />
+                  <source srcset="./images/portfolio/cashless-pay-tabl@1x.jpg 1x, ./images/portfolio/cashless-pay-tabl@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/cashless-pay-mob@1x.jpg 1x, ./images/portfolio/cashless-pay-mob@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img
                   src="./images/portfolio/cashless-pay.jpg"
                   alt="Bank App image"
-                  
                 />
+                </picture>
+                
 
                 <p class="overlaytext">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -950,11 +968,17 @@
             </li>
             <li class="portfolio-list-item-mobile">
               <div class="img-wrapper">
-                <img
+                <picture>
+                  <source srcset="./images/portfolio/meditate-app-tabl@1x.jpg 1x, ./images/portfolio/meditate-app-tabl@2x.jpg 2x" media="(min-width: 1158px)" />
+                  <source srcset="./images/portfolio/meditate-app-tabl@1x.jpg 1x, ./images/portfolio/meditate-app-tabl@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/meditate-app-mob@1x.jpg 1x, ./images/portfolio/meditate-app-mob@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img
                   src="./images/portfolio/meditate-app.jpg"
                   alt="Bank App image"
                   
                 />
+                </picture>
+                
 
                 <p class="overlaytext">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -969,11 +993,17 @@
             </li>
             <li class="portfolio-list-item-mobile">
               <div class="img-wrapper">
-                <img
+                <picture>
+                  <source srcset="./images/portfolio/taxi-service-tabl@1x.jpg 1x, ./images/portfolio/taxi-service-tabl@2x.jpg 2x" media="(min-width: 1158px)" />
+                  <source srcset="./images/portfolio/taxi-service-tabl@1x.jpg 1x, ./images/portfolio/taxi-service-tabl@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/taxi-service-mob@1x.jpg 1x, ./images/portfolio/taxi-service-mob@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img
                   src="./images/portfolio/taxi-service.jpg"
                   alt="Bank App image"
                  
                 />
+                </picture>
+                
 
                 <p class="overlaytext">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -988,11 +1018,17 @@
             </li>
             <li class="portfolio-list-item-mobile">
               <div class="img-wrapper">
-                <img
+                <picture>
+                  <source srcset="./images/portfolio/screen-illustrat-tabl@1x.jpg 1x, ./images/portfolio/screen-illustrat-tabl@2x.jpg 2x" media="(min-width: 1158px)" />
+                  <source srcset="./images/portfolio/screen-illustrat-tabl@1x.jpg 1x, ./images/portfolio/screen-illustrat-tabl@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/screen-illustrat-mob@1x.jpg 1x, ./images/portfolio/screen-illustrat-mob@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img
                   src="./images/portfolio/screen-illustrat.jpg"
                   alt="Bank App image"
                   
                 />
+                </picture>
+                
 
                 <p class="overlaytext">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -1007,11 +1043,17 @@
             </li>
             <li class="portfolio-list-item-mobile">
               <div class="img-wrapper">
-                <img
+                <picture>
+                  <source srcset="./images/portfolio/online-course-tabl@1x.jpg 1x, ./images/portfolio/online-course-tabl@2x.jpg 2x" media="(min-width: 1158px)" />
+                  <source srcset="./images/portfolio/online-course-tabl@1x.jpg 1x, ./images/portfolio/online-course-tabl@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/online-course-mob@1x.jpg 1x, ./images/portfolio/online-course-mob@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img
                   src="./images/portfolio/online-course.jpg"
                   alt="Bank App image"
                   
                 />
+                </picture>
+                
 
                 <p class="overlaytext">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -1030,7 +1072,7 @@
 
 
 
-      <footer class="footer-color-mobile">
+    <footer class="footer-color-mobile">
       <div class="container-mobile footer-container-mobile">
         <div class="logo-and-text-mobile">
           <a class="page-logo page-logo-footer-mobile" href="./index.html"
@@ -1101,6 +1143,156 @@
       </div>
     </footer>
 
+    <!--  Mobile menu        -->
+    <div class="mobile-menu">
+      <div class="container-mobile mobile-menu-container">
+        <button class="mobile-menu-close" type="button">
+          <svg class="mobile-menu-close-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-items">
+            <a class="mobile-menu-items-link" href="" >Studio</a></li>
+          <li class="mobile-menu-items">
+            <a class="mobile-menu-items-link" href="" >Portfolio</a></li>
+          <li class="mobile-menu-items">
+            <a class="mobile-menu-items-link" href="" >Contacts</a></li>
+         </ul>
+        </nav>
+        <address class="mobile-menu-address">
+        <ul class="mobile-menu-contact-list">
+        <li class="mobile-menu-contact-item"><a class="mobile-menu-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li class="mobile-menu-contact-item"><a class="mobile-menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        </ul>
+        </addres>
+        
+        <ul class="icon-list-mobile mobile-menu-gap">
+            <li class="icon-list">
+              <a class="icon-list-link footer-icon-hover" href="#">
+                <svg class="fillsvg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a class="icon-list-link footer-icon-hover" href="#">
+                <svg class="fillsvg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a class="icon-list-link footer-icon-hover" href="#">
+                <svg class="fillsvg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a class="icon-list-link footer-icon-hover" href="#">
+                <svg class="fillsvg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    <!--          MOBILE MODAL       -->
+    <div class="modal-backdrop is-open">
+      <div class="container-mobile modal">
+        <button class="model-close" type="button">
+          <svg class="model-close-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="model-slogan">
+          Leave your contacts and we will call you back
+        </p>
+
+        <form class="contact-form">
+          <div class="contact-form-wrapper">
+            <label for="user-name" class="contact-form-label">Name</label>
+            <div class="contact-form-img-wrapper">
+              <input
+                type="text"
+                class="contact-form-input"
+                id="user-name"
+                name="user-name"
+                required
+              />
+              <svg class="contact-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <label for="user-phone" class="contact-form-label">Phone</label>
+            <div class="contact-form-img-wrapper">
+              <input
+                type="tel"
+                class="contact-form-input"
+                id="user-phone"
+                name="user-phone"
+                required
+              />
+              <svg class="contact-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <label for="user-email" class="contact-form-label">Email</label>
+            <div class="contact-form-img-wrapper">
+              <input
+                type="email"
+                class="contact-form-input"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg class="contact-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-form-wrapper-textarea">
+            <label for="user-comment" class="contact-form-label">Comment</label>
+            <textarea
+              id="user-comment"
+              class="contact-form-textarea"
+              placeholder="Text input"
+              name="user-comment"
+            ></textarea>
+          </div>
+          <div class="contact-form-checkbox">
+            <input
+              type="checkbox"
+              class="contact-form-checkbox-btn visually-hidden"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              required
+            />
+            <label for="user-privacy" class="contact-form-checkbox-label">
+              <span class="contact-form-checkbox-span">
+                <svg class="contact-form-vector" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="contact-form-policy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="contact-form-submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>-->
 
   </body>
 </html>
