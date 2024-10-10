@@ -1157,8 +1157,8 @@ width: 288px;
    position: absolute;
    top: 50%;
    left: 50%;
-   width: 408px;
-   min-height: 584px;
+   width: 288px;
+   min-height: 632px;
    transform: translate(-50%, -50%);
    background-color: #fcfcfc;
    padding: 72px 24px 24px 24px;
@@ -1480,6 +1480,11 @@ width: 288px;
 .subscribe-email-input-mobile {
   min-width: 264px;
   margin-right: 24px;
+}
+
+.modal {
+  width: 408px;
+  min-height: 584px;
 }
 
 }
